@@ -18,6 +18,7 @@
 -module(amqp_gen_connection).
 
 -include("amqp_client.hrl").
+-include("amqp_client_logging.hrl").
 
 -behaviour(gen_server).
 

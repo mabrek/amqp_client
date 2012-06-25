@@ -63,6 +63,7 @@
 -module(amqp_channel).
 
 -include("amqp_client.hrl").
+-include("amqp_client_logging.hrl").
 
 -behaviour(gen_server).
 
